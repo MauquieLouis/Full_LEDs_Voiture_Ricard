@@ -1,5 +1,5 @@
 ## 1. Connecter le téléphone au raspberry en bluetooth
-## 2. Ajouter l'uuid du téléphone dans le code python (Dans le Main programme)
+## 2. Ajouter l'uuid du téléphone dans le code python (Main.py)
 Pour connaitre l'uuid, voici les commandes à suivre :
 
 
