@@ -1,6 +1,6 @@
-## 1 Connecter le téléphone au raspberry en bluetooth
-## 2 Ajouter l'uuid du téléphone dans le code python (Dans le Main programme)
-Pour changer l'uuid exemple des commandes à suivre :
+## 1. Connecter le téléphone au raspberry en bluetooth
+## 2. Ajouter l'uuid du téléphone dans le code python (Dans le Main programme)
+Pour connaitre l'uuid, voici les commandes à suivre :
 
 
 ``` bluetoothctl paired-devices ```
@@ -9,7 +9,7 @@ Pour changer l'uuid exemple des commandes à suivre :
 `bluetoothctl info <MA:CA:DD:RE:SS>`
 
 
-It will print a list of all UUID, in my case i had to set up the one that begin with a 9.
+Une liste de tous les uuid s'affiche, il faut en choisir un en particulier (je ne sais plus pourquoi il faut utiliser celui qui commence par un 9 dans mon cas).
 
 
 ### Image Example :
